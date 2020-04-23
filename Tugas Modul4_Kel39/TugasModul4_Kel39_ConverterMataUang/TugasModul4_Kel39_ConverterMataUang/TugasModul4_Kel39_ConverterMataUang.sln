@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "TugasModul4_Kel39_ConverterMataUang", "TugasModul4_Kel39_ConverterMataUang\TugasModul4_Kel39_ConverterMataUang.pyproj", "{C21C554B-6B0C-42BC-BADE-82592E74BC1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C21C554B-6B0C-42BC-BADE-82592E74BC1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C21C554B-6B0C-42BC-BADE-82592E74BC1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84B98E37-55AA-4E15-88DB-0A61EC3D8165}
+	EndGlobalSection
+EndGlobal
