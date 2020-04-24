@@ -1,7 +1,8 @@
 package modul5_kel39;
 
-public class userService {
-private String[][] data = new String[2][3];
+public class userService 
+{
+    private String[][] data = new String[2][3];
     private String email, password, roles = "",date = "";
     
    
@@ -16,6 +17,22 @@ private String[][] data = new String[2][3];
         };
         this.data = data;
     }
+
+    public void login()
+    {
+        boolean status = checkCredential();
+        if(status == true)
+        { 
+            System.out.println("\nWelcome \n" + roles);
+            System.out.println("Tanggal Peminjaman : " + date);
+            System.out.println("WELKAM BRADER " + email);
+        }
+        else
+        {
+            System.out.println("\nInvalid Login ");
+        }
+    }
+
     
     private boolean checkCredential()
     {
@@ -33,5 +50,6 @@ private String[][] data = new String[2][3];
         }
         return false;
     }
+}
     
  
