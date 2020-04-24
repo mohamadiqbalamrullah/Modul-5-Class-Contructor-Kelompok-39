@@ -17,23 +17,7 @@ public class userService
         };
         this.data = data;
     }
-
-    public void login()
-    {
-        boolean status = checkCredential();
-        if(status == true)
-        { 
-            System.out.println("\nWelcome \n" + roles);
-            System.out.println("Tanggal Peminjaman : " + date);
-            System.out.println("WELKAM BRADER " + email);
-        }
-        else
-        {
-            System.out.println("\nInvalid Login ");
-        }
-    }
-
-    
+     
     private boolean checkCredential()
     {
         for(int i = 0; i < data.length; i++ )
@@ -50,6 +34,18 @@ public class userService
         }
         return false;
     }
+ public void login()
+    {
+        boolean status = checkCredential();
+        if(status == true)
+        { 
+            System.out.println("\nWelcome \n" + roles);
+            System.out.println("Tanggal Peminjaman : " + date);
+            System.out.println("WELKAM BRADER " + email);
+        }
+        else
+        {
+            System.out.println("\nInvalid Login ");
+        }
+    }
 }
-    
- 
