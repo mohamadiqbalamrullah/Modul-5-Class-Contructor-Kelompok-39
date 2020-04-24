@@ -34,18 +34,4 @@ private String[][] data = new String[2][3];
         return false;
     }
     
-    public void login()
-    {
-        boolean status = checkCredential();
-        if(status == true)
-        { 
-            System.out.println("\nWelcome \n" + roles);
-            System.out.println("Tanggal Peminjaman : " + date);
-            System.out.println("WELKAM BRADER " + email);
-        }
-        else
-        {
-            System.out.println("\nInvalid Login ");
-        }
-    }
-}
+ 
